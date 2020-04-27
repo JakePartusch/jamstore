@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -23,12 +22,12 @@ const IndexPage = () => (
           <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
             <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
               <div className="hidden md:block md:pr-4">
-                <a
-                  href="#"
+                <Link
+                  to="/products"
                   className="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Products
-                </a>
+                </Link>
                 <a
                   href="#"
                   className="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
@@ -59,12 +58,12 @@ const IndexPage = () => (
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="#"
+                  <Link
+                    to="/products"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
                     Shop Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
