@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import GatsbyImage from "gatsby-image"
 import SimpleHeaderLayout from "../components/SimpleHeaderLayout"
 
-const ProductTempate = ({ data, pageContext }) => {
+const ProductTempate = ({ data }) => {
   const { sanityProduct } = data
   const { images, price, title, _rawBody } = sanityProduct
   console.log(data)
