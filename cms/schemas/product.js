@@ -54,7 +54,8 @@ export default {
     {
       name: "body",
       title: "Body",
-      type: "localeBlockContent",
+      type: "array",
+      of: [{ type: "block" }],
     },
   ],
 
