@@ -5,7 +5,7 @@ import { navigate } from "gatsby"
 
 const ProductCard = ({ imageUrl, name, price }) => {
   const navigateToProduct = () => {
-    navigate(`/products/name`)
+    navigate(`/test`)
   }
   return (
     <li
