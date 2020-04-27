@@ -1,12 +1,11 @@
 import React from "react"
 import { graphql } from "gatsby"
 import GatsbyImage from "gatsby-image"
-import SimpleHeaderLayout from "../components/SimpleHeaderLayout"
+import SimpleHeaderLayout from "../components/layouts/SimpleHeaderLayout"
 
 const ProductTempate = ({ data }) => {
   const { sanityProduct } = data
   const { images, price, title, _rawBody } = sanityProduct
-  console.log(data)
   return (
     <SimpleHeaderLayout>
       <section className="max-w-4xl mx-auto mt-8">

@@ -1,8 +1,8 @@
 import React from "react"
-import SEO from "../components/seo"
-import SimpleHeaderLayout from "../components/SimpleHeaderLayout"
+import SEO from "../components/common/seo"
+import SimpleHeaderLayout from "../components/layouts/SimpleHeaderLayout"
 import { useStaticQuery, graphql } from "gatsby"
-import ProductCard from "../components/ProductCard"
+import ProductCard from "../components/products/ProductCard"
 
 const Products = () => {
   const data = useStaticQuery(graphql`
