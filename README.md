@@ -3,11 +3,8 @@
     <img alt="Jamstore" src="https://jamstore.xyz/jam-og.png" width="600" />
   </a>
 </p>
-<h1 align="center">
-  Jamstore
-</h1>
 
-# Technology Stack
+# Tech Stack
 
 - Gatsby/React
 - Tailwind.css/TailwindUI
