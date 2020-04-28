@@ -55,7 +55,7 @@ const Hero = () => (
               <div className="rounded-md shadow">
                 <Link
                   to="/products"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-teal-600 hover:bg-teal-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base text-lg leading-6 font-bold rounded-md text-white bg-teal-400 hover:bg-teal-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
                   Shop Now
                 </Link>

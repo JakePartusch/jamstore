@@ -44,7 +44,7 @@ const Features = () => (
         </div>
         <div className="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
           <div>
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-teal-400 text-white">
               <svg
                 className="h-6 w-6"
                 stroke="currentColor"
@@ -70,7 +70,7 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-400 text-white">
               <svg
                 className="h-6 w-6"
                 stroke="currentColor"
@@ -96,7 +96,7 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-teal-400 text-white">
               <svg
                 className="h-6 w-6"
                 stroke="currentColor"
@@ -122,7 +122,7 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-400 text-white">
               <svg
                 className="h-6 w-6"
                 stroke="currentColor"
