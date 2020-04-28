@@ -13,6 +13,6 @@
 - Built with Gatsby Cloud
 - Deployed on Netlify
 
-# Is this real?
+# Is this a _real_ website?
 
 No. The point is just to illustrate the main concepts/benefits to developing a web application with the Jamstack
