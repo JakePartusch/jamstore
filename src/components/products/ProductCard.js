@@ -19,7 +19,7 @@ const ProductCard = ({ imageUrl, name, price, imageFluid, slug, ...rest }) => {
 
         <div className="flex flex-col items-center justify-center mt-4 pb-8">
           <h2 className="text-md font-bold text-gray-800">{name}</h2>
-          <p className="mt-2 font-bold text-green-500">{`$${price}`}</p>
+          <p className="mt-2 font-bold text-pink-500">{`$${price}`}</p>
         </div>
       </Link>
     </li>

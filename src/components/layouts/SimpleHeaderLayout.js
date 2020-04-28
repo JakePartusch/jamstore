@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const SimpleHeaderLayout = ({ title, children }) => (
   <div className="min-h-screen flex flex-col">
-    <nav className="bg-green-700">
+    <nav className="bg-pink-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -11,19 +11,19 @@ const SimpleHeaderLayout = ({ title, children }) => (
               <div className="flex items-baseline">
                 <Link
                   to="/"
-                  className="px-3 py-2 rounded-md text-sm font-medium text-green-200 hover:text-white hover:bg-green-600 focus:outline-none focus:text-white focus:bg-green-600"
+                  className="px-3 py-2 rounded-md text-sm font-medium text-pink-200 hover:text-white hover:bg-pink-600 focus:outline-none focus:text-white focus:bg-pink-600"
                 >
                   Home
                 </Link>
                 <Link
                   to="/products"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium text-white bg-green-800 focus:outline-none focus:text-white focus:bg-green-600"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium text-white bg-pink-800 focus:outline-none focus:text-white focus:bg-pink-600"
                 >
                   Products
                 </Link>
                 <Link
                   href="/about"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-200 hover:text-white hover:bg-green-600 focus:outline-none focus:text-white focus:bg-green-600"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium text-pink-200 hover:text-white hover:bg-pink-600 focus:outline-none focus:text-white focus:bg-pink-600"
                 >
                   About Us
                 </Link>
@@ -224,12 +224,12 @@ const SimpleHeaderLayout = ({ title, children }) => (
               <input
                 aria-label="Email address"
                 type="email"
-                requigreen
+                requipink
                 className="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
                 placeholder="Enter your email"
               />
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                <button className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-700 hover:bg-green-400 focus:outline-none focus:bg-green-400 transition duration-150 ease-in-out">
+                <button className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-pink-700 hover:bg-pink-400 focus:outline-none focus:bg-pink-400 transition duration-150 ease-in-out">
                   Subscribe
                 </button>
               </div>
