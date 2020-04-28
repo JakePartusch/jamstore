@@ -10,7 +10,7 @@ const Products = () => {
       allSanityProduct {
         edges {
           node {
-            images {
+            image {
               asset {
                 fluid(maxWidth: 350) {
                   ...GatsbySanityImageFluid
@@ -39,7 +39,7 @@ const Products = () => {
           <ProductCard
             key={product.sku}
             slug={product.slug.current}
-            imageFluid={product.images[0].asset.fluid}
+            imageFluid={product.image.asset.fluid}
             name={product.title}
             price={product.price}
           />

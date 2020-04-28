@@ -5,13 +5,13 @@ import SimpleHeaderLayout from "../components/layouts/SimpleHeaderLayout"
 
 const ProductTempate = ({ data }) => {
   const { sanityProduct } = data
-  const { images, price, title, _rawBody } = sanityProduct
+  const { image, price, title, _rawBody } = sanityProduct
   return (
     <SimpleHeaderLayout>
       <section className="max-w-4xl mx-auto mt-8">
         <div className="flex items-center justify-center">
           <GatsbyImage
-            fluid={images[0].asset.fluid}
+            fluid={image.asset.fluid}
             alt={title}
             className="min-w-full"
           />
@@ -41,7 +41,7 @@ const ProductTempate = ({ data }) => {
 export const pageQuery = graphql`
   query($slug: String!) {
     sanityProduct(slug: { current: { eq: $slug } }) {
-      images {
+      image {
         asset {
           fluid(maxWidth: 960) {
             ...GatsbySanityImageFluid

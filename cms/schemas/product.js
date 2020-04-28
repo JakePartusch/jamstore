@@ -1,3 +1,5 @@
+import React from "react"
+
 export default {
   name: "product",
   title: "Product",
@@ -28,17 +30,9 @@ export default {
       type: "string",
     },
     {
-      name: "images",
-      title: "Images",
-      type: "array",
-      of: [
-        {
-          type: "image",
-          options: {
-            hotspot: true,
-          },
-        },
-      ],
+      name: "image",
+      title: "Image",
+      type: "image",
     },
     {
       name: "categories",
@@ -62,7 +56,7 @@ export default {
   preview: {
     select: {
       title: "title",
-      media: "images[0]",
+      media: "image",
     },
   },
 }
