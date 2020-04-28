@@ -31,7 +31,7 @@ const Hero = () => (
               </Link>
               <Link
                 to="/"
-                className="ml-8 font-medium text-pink-600 hover:text-pink-900 focus:outline-none focus:text-pink-700 transition duration-150 ease-in-out"
+                className="ml-8 font-medium text-teal-600 hover:text-teal-900 focus:outline-none focus:text-teal-700 transition duration-150 ease-in-out"
               >
                 Log in
               </Link>
@@ -55,7 +55,7 @@ const Hero = () => (
               <div className="rounded-md shadow">
                 <Link
                   to="/products"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-pink-600 hover:bg-pink-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-teal-600 hover:bg-teal-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
                   Shop Now
                 </Link>

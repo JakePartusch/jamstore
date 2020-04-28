@@ -52,8 +52,20 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `/jam-og.png`,
+        },
+        {
+          property: `og:url`,
+          content: `https:/jamstore.xyz`,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
+        },
+        {
+          property: `twitter:image`,
+          content: `/jam-og.png`,
         },
         {
           name: `twitter:creator`,
