@@ -39,12 +39,12 @@ const Features = () => (
       <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
         <div className="lg:col-span-1">
           <h3 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            Great style is easy.
+            Crafted with love and shipped with care
           </h3>
         </div>
         <div className="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
           <div>
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
               <svg
                 className="h-6 w-6"
                 stroke="currentColor"
@@ -61,7 +61,7 @@ const Features = () => (
             </div>
             <div className="mt-5">
               <h5 className="text-lg leading-6 font-medium text-gray-900">
-                Competitive rates
+                Competitive prices
               </h5>
               <p className="mt-2 text-base leading-6 text-gray-500">
                 Consequuntur omnis dicta cumque, inventore atque ab dolores
@@ -70,7 +70,7 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
               <svg
                 className="h-6 w-6"
                 stroke="currentColor"
@@ -87,7 +87,7 @@ const Features = () => (
             </div>
             <div className="mt-5">
               <h5 className="text-lg leading-6 font-medium text-gray-900">
-                No hidden fees
+                Free Shipping
               </h5>
               <p className="mt-2 text-base leading-6 text-gray-500">
                 Corporis quisquam nostrum nulla veniam recusandae temporibus
@@ -96,7 +96,7 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
               <svg
                 className="h-6 w-6"
                 stroke="currentColor"
@@ -113,7 +113,7 @@ const Features = () => (
             </div>
             <div className="mt-5">
               <h5 className="text-lg leading-6 font-medium text-gray-900">
-                Instant transfers
+                Money Back Guarantee
               </h5>
               <p className="mt-2 text-base leading-6 text-gray-500">
                 Omnis, illo delectus? Libero, possimus nulla nemo tenetur
@@ -122,7 +122,7 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-500 text-white">
               <svg
                 className="h-6 w-6"
                 stroke="currentColor"
@@ -139,7 +139,7 @@ const Features = () => (
             </div>
             <div className="mt-5">
               <h5 className="text-lg leading-6 font-medium text-gray-900">
-                Reminder emails
+                Tracking notifications
               </h5>
               <p className="mt-2 text-base leading-6 text-gray-500">
                 Veniam necessitatibus reiciendis fugit explicabo dolorem nihil

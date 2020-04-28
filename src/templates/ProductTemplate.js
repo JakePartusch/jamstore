@@ -8,7 +8,7 @@ const ProductTempate = ({ data }) => {
   const { image, price, title, _rawBody } = sanityProduct
   return (
     <SimpleHeaderLayout>
-      <section className="max-w-4xl mx-auto mt-8">
+      <section className="max-w-md mx-auto mt-8">
         <div className="flex items-center justify-center">
           <GatsbyImage
             fluid={image.asset.fluid}
@@ -43,7 +43,7 @@ export const pageQuery = graphql`
     sanityProduct(slug: { current: { eq: $slug } }) {
       image {
         asset {
-          fluid(maxWidth: 960) {
+          fluid(maxWidth: 600) {
             ...GatsbySanityImageFluid
           }
         }

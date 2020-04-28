@@ -32,7 +32,7 @@ const Products = () => {
     ...product.node,
   }))
   return (
-    <SimpleHeaderLayout title="Sofas">
+    <SimpleHeaderLayout title="Jams">
       <SEO title="Products" />
       <ul className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {products.map(product => (
