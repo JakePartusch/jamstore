@@ -7,7 +7,7 @@ const ProductCard = ({ imageUrl, name, price, imageFluid, slug, ...rest }) => {
     <li {...rest}>
       <Link
         to={`/products/${slug}`}
-        className="flex flex-col cursor-pointer justify-between bg-white shadow overflow-hidden sm:rounded-lg transition duration-200 ease-out transform hover:-translate-y-2"
+        className="flex flex-col justify-between overflow-hidden transition duration-200 ease-out transform bg-white shadow cursor-pointer sm:rounded-lg hover:-translate-y-2"
       >
         <div className="flex items-center justify-center py-4">
           {imageFluid ? (
@@ -17,9 +17,9 @@ const ProductCard = ({ imageUrl, name, price, imageFluid, slug, ...rest }) => {
           )}
         </div>
 
-        <div className="flex flex-col items-center justify-center mt-4 pb-8">
-          <h2 className="text-md font-bold text-gray-800">{name}</h2>
-          <p className="mt-2 font-bold text-pink-500">{`$${price}`}</p>
+        <div className="flex flex-col items-center justify-center pb-8 mt-4">
+          <h2 className="font-bold text-gray-800 text-md">{name}</h2>
+          <p className="mt-2 font-bold text-pink-600">{`$${price}`}</p>
         </div>
       </Link>
     </li>

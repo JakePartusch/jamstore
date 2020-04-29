@@ -1,10 +1,10 @@
 import React from "react"
 
 const Features = () => (
-  <div className="bg-gray-50 overflow-hidden">
-    <div className="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+  <div className="overflow-hidden bg-gray-50">
+    <div className="relative max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
       <svg
-        className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+        className="absolute top-0 transform -translate-x-1/2 left-full -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
         width="404"
         height="784"
         fill="none"
@@ -38,15 +38,15 @@ const Features = () => (
 
       <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
         <div className="lg:col-span-1">
-          <h3 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             Crafted with love and shipped with care
-          </h3>
+          </h2>
         </div>
         <div className="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
           <div>
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-teal-400 text-white">
+            <div className="flex items-center justify-center w-12 h-12 text-white bg-teal-400 rounded-md">
               <svg
-                className="h-6 w-6"
+                className="w-6 h-6"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -60,9 +60,9 @@ const Features = () => (
               </svg>
             </div>
             <div className="mt-5">
-              <h5 className="text-lg leading-6 font-medium text-gray-900">
+              <h3 className="text-lg font-medium leading-6 text-gray-900">
                 Competitive prices
-              </h5>
+              </h3>
               <p className="mt-2 text-base leading-6 text-gray-500">
                 Consequuntur omnis dicta cumque, inventore atque ab dolores
                 aspernatur tempora ab doloremque.
@@ -70,9 +70,9 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-400 text-white">
+            <div className="flex items-center justify-center w-12 h-12 text-white bg-pink-400 rounded-md">
               <svg
-                className="h-6 w-6"
+                className="w-6 h-6"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -86,9 +86,9 @@ const Features = () => (
               </svg>
             </div>
             <div className="mt-5">
-              <h5 className="text-lg leading-6 font-medium text-gray-900">
+              <h3 className="text-lg font-medium leading-6 text-gray-900">
                 Free Shipping
-              </h5>
+              </h3>
               <p className="mt-2 text-base leading-6 text-gray-500">
                 Corporis quisquam nostrum nulla veniam recusandae temporibus
                 aperiam officia incidunt at distinctio ratione.
@@ -96,9 +96,9 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-teal-400 text-white">
+            <div className="flex items-center justify-center w-12 h-12 text-white bg-teal-400 rounded-md">
               <svg
-                className="h-6 w-6"
+                className="w-6 h-6"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -112,9 +112,9 @@ const Features = () => (
               </svg>
             </div>
             <div className="mt-5">
-              <h5 className="text-lg leading-6 font-medium text-gray-900">
+              <h3 className="text-lg font-medium leading-6 text-gray-900">
                 Money Back Guarantee
-              </h5>
+              </h3>
               <p className="mt-2 text-base leading-6 text-gray-500">
                 Omnis, illo delectus? Libero, possimus nulla nemo tenetur
                 adipisci repellat dolore eligendi velit doloribus mollitia.
@@ -122,9 +122,9 @@ const Features = () => (
             </div>
           </div>
           <div className="mt-10 sm:mt-0">
-            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-pink-400 text-white">
+            <div className="flex items-center justify-center w-12 h-12 text-white bg-pink-400 rounded-md">
               <svg
-                className="h-6 w-6"
+                className="w-6 h-6"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -138,9 +138,9 @@ const Features = () => (
               </svg>
             </div>
             <div className="mt-5">
-              <h5 className="text-lg leading-6 font-medium text-gray-900">
+              <h3 className="text-lg font-medium leading-6 text-gray-900">
                 Tracking notifications
-              </h5>
+              </h3>
               <p className="mt-2 text-base leading-6 text-gray-500">
                 Veniam necessitatibus reiciendis fugit explicabo dolorem nihil
                 et omnis assumenda odit? Quisquam unde accusantium.
