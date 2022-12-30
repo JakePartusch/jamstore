@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@tailwindcss/ui": "^0.2.2",
-    "gatsby": "^2.20.35",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.3.5",
     "gatsby-plugin-manifest": "^2.3.7",
     "gatsby-plugin-offline": "^3.1.5",
